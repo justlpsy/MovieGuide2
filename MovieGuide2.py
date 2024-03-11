@@ -38,7 +38,7 @@ def delete_title(movie_list, index, file_name):
 def main():
     movie_file = "movies.txt"
     movie_list = populate_list(movie_file)
-    
+   
     while True:
         display_menu()
         choice = input("Enter your choice: ")
